@@ -56,6 +56,8 @@ python setup.py develop
 
 ## Data Preparation
 We haven't achieved compatibility with the generated data of OpenPCDet yet and use the same data format as [mmdeteciton3d](https://github.com/open-mmlab/mmdetection3d) for now. We will try to implement indoor data pre-processing based on OpenPCDet as soon as possible.
+Note this is based on mmdet3d 0.15, mmdet3d >=1.0 will change the coordinate system. You can download the pre-processed data directly [here](https://github.com/Haiyang-W/CAGroup3D#data-preparation).
+
 ### ScanNet V2
 Please install [mmdeteciton3d](https://github.com/open-mmlab/mmdetection3d) first and follow the data preparation [ScanNet V2](https://github.com/open-mmlab/mmdetection3d/blob/master/data/scannet/README.md/). Then link the generated data as follows:
 ```shell
